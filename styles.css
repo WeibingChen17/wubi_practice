@@ -1,0 +1,70 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#randomWordDisplay {
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+#inputContainer {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#userInput {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    font-size: xxx-large;
+    width: 100%;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#status {
+    /* Additional styling for the status div, if needed */
+}
+
+#progressBar {
+    height: 20px;
+    position: relative;
+    width: 100%; /* Set width to 80% of the page */
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#successBar,
+#failureBar {
+    height: 100%;
+}
+
+#successBar {
+    background-color: #4caf50;
+}
+
+#failureBar {
+    background-color: #ff5252;
+}
