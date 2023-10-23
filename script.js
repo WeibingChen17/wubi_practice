@@ -1,6 +1,6 @@
 // script.js
 
-import { data } from "./data.js";
+import { data } from "./wubi_data.js";
 
 // Create cumulative frequency array once
 let cumulativeFreqArray = [];
